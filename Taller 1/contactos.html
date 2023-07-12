@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/cf14d32a76.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/stylesconta.css">
+  <script src="JS/contactos.js"></script>
+  <script src="sweetalert2.all.min.js"></script>
+  <script src="sweetalert2.min.js"></script>
+  <script src="sweetalert2.all.min.js"></script>
+
+</head>
+<body>
+    
+    <header>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+     
+      <img src="/assetes/Imagenes/Captura.PNG" alt="Logo" class="img-logo">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="nosotros.html">Quienes somos ?</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contactos.html">Contacto</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </header>
+
+    <main>
+<div class="container">
+    <div class="row equal-cols">
+            <div class="col-sm-5">
+        <h2 class="letra">Tu opinión es importante</h2>
+        <form action="formLogin">
+            <div id="mensaje1"></div>
+
+            <label for="nombre" class="letra"> Ingrese Nombre</label>
+            <input type="text" id="nombre"><br><br>
+            
+            <label for="apellido" class="letra">Ingrese Apellido</label>
+            <input type="text" id="apellido"><br><br>
+            
+            <label for="correo" class="letra">Ingrese Correo</label>
+            <input type="text" id="correo"><br><br>
+            
+            <label for="edad" class="letra">Ingrese Edad</label>
+            <input type="text" id="edad"><br><br>
+            
+<h4 class="letra">Ingrese su comentario</h4>
+            <textarea  id="comentario" cols="30" rows="10" placeholder="Ingrese su comentario">
+            </textarea><br><br>
+
+            <input type="button" id="enviar" onclick="formulario()" value="Enviar">
+            
+
+        </form>
+    </div>
+    <div class="col-sm-2"> 
+      <h5 class="letra">Redes Sociales</h5>
+      <i class="fa-brands fa-tiktok fa-fade fa-lg"></i> @mar_y_tierra <br>
+      <i class="fa-brands fa-twitter fa-fade fa-lg"></i>@mar y tierra <br>
+      <i class="fa-brands fa-instagram fa-beat fa-lg"></i> mar_y_tierra<br>
+      <i class="fa-brands fa-whatsapp fa-fade fa-lg"></i> +593995791800 <br>
+      <i class="fa-duotone fa-phone fa-lg"></i> 0223453223 <br>
+      <i class="fa-sharp fa-regular fa-envelope fa-beat fa-lg"></i> cri199160@hotmail.com <br>
+      Av.Garcia Moreno y Morona Santiago Conjutno ALdea Verde <br>
+  
+  </div>
+    <div class="col-sm-5">
+
+        <center>
+            <h3></h3>
+           
+            <iframe width="400" height="280" src="https://www.youtube.com/embed/SZdIRASJKgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h3></h3>
+           
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11284.817089761003!2d-78.4898874746392!3d-0.23294885238565347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1687310563576!5m2!1ses-419!2sec" width="400" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </center>
+
+    </div>
+    </div>
+    </div>
+    </main>
+
+    <footer class="container-fluid text-center">
+        <div class="row">
+
+            <div class="col-sm-4"> 
+                <h5>Redes Sociales</h5>
+                <i class="fa-brands fa-tiktok fa-fade fa-lg"></i> @mar_y_tierra <br>
+                <i class="fa-brands fa-twitter fa-fade fa-lg"></i>@mar y tierra <br>
+                <i class="fa-brands fa-instagram fa-beat fa-lg"></i> mar_y_tierra<br>
+
+            </div>
+            <div class="col-sm-4"> 
+            <h5>Contactanos</h5>
+            <i class="fa-brands fa-whatsapp fa-fade fa-lg"></i> +593995791800 <br>
+            <i class="fa-duotone fa-phone fa-lg"></i> 0223453223 <br>
+            <i class="fa-sharp fa-regular fa-envelope fa-beat fa-lg"></i> cristofer199160@hotmail.com <br>
+          </div>
+            <div class="col-sm-4"> </div>
+            <h5>Direccion</h5>
+            Av.Garcia Moreno y Morona Santiago Conjutno ALdea Verde <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11284.817089761003!2d-78.4898874746392!3d-0.23294885238565347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1687310563576!5m2!1ses-419!2sec" width="120" height="40" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </div>
+        <h5>© 2023 - Todos los derechos reservados</h5>
+        <h5>Sitio web diseñado por Cristian Escanta</h5>
+      </footer>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+.img-logo{
+    height: 50px;
+    width: 60px;
+  
+}
+.carru1{
+    width: 100%;
+     
+}
+
+.parrafo1{
+    font-family:Agency FB, sans-serif;
+    color: rgb(247, 239, 239);
+    font-size: 19px; 
+    
+}
+.titulo{
+    color: rgb(19, 19, 20); 
+  font-size: 23px; 
+  font-family:Algerian, sans-serif;
+  font-weight: bold; 
+
+}
+.parrafo2{
+    font-style: italic;
+    color: rgba(10, 10, 10, 0.973);
+    font-weight: bold;
+}
+body{
+    background-image: url("/assetes/Imagenes/fondo\ 4.jpg" ); /* Reemplaza "ruta/de/la/imagen.jpg" con la ubicación de tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el fondo */
+  background-position: center; /* Centra la imagen en el fondo */
+}
+footer{
+    background-color:rgb(1, 12, 22);
+    color: alicable;
+   
+    
+    
+}

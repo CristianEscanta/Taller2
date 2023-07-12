@@ -1,0 +1,36 @@
+.img-logo{
+    height: 50px;
+    width: 60px;
+  
+}
+.carru1{
+    width: 100%;
+     
+}
+
+.parrafo1{
+    font-style: italic;
+    color: rgba(46, 0, 36, 0.959);
+}
+.titulo{
+    color: rgb(14, 14, 29); 
+  font-size: 30px; 
+  font-family: Arial, sans-serif;
+  font-weight: bold; 
+
+}
+.parrafo2{
+    font-style: italic;
+    color: rgba(12, 55, 104, 0.959);
+    background-color:rgb(230, 232, 235);
+}
+body{
+    background-color:rgb(218, 233, 225);
+}
+footer{
+    background-color:rgb(1, 12, 22);
+    color: alicable;
+   
+    
+    
+}

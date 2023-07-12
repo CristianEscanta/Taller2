@@ -1,0 +1,122 @@
+.img-logo{
+    height: 50px;
+    width: 60px;
+  
+}
+.letra{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.959);
+    font-size: 19px; 
+    font-weight: bold; 
+
+}
+.parrafo2{
+    font-style: italic;
+    color: rgba(12, 55, 104, 0.959);
+    background-color:rgb(230, 232, 235);
+}
+body{
+    background-image: url("/assetes/Imagenes/fondo\ 4.jpg" ); /* Reemplaza "ruta/de/la/imagen.jpg" con la ubicación de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+footer{
+    background-color:rgb(1, 12, 22);
+    color: alicable; 
+    
+}
+#formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: o;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para la etiqueta <h2> */
+h2.letra {
+  color: blue;
+  font-size: 24px;
+  font-family: inherit;
+}
+
+/* Estilos para la etiqueta <label> */
+label.letra {
+  font-weight: bold;
+  font-family: inherit;
+}
+
+/* Estilos para los campos de entrada <input> */
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para la etiqueta <h4> */
+h4.letra {
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: inherit;
+}
+
+/* Estilos para el campo de texto <textarea> */
+textarea {
+  width: 300px;
+  height: 150px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el botón de envío <input> */
+input[type="button"] {
+  background-color: #043030;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #36c4c4;
+}
+
+/* Estilos para el contenedor <div> */
+div.col-sm-2 {
+  background-color: #77a8e7;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+/* Estilos para el título <h5> */
+h5.letra {
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los íconos <i> */
+i.fa-brands,
+i.fa-duotone,
+i.fa-sharp {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+/* Estilos para los enlaces */
+div.col-sm-2 a {
+  color: #c21919;
+  text-decoration: none;
+}
+
+/* Estilos para los textos normales */
+div.col-sm-2 p {
+  margin: 5px 0;
+}
+
+
+  
